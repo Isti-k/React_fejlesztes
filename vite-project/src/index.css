@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: url(./assets/hatter.png) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+}
