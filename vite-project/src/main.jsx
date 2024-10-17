@@ -9,7 +9,7 @@ import './index.css';
 // pages 
 import App from './App.jsx';
 import About from './pages/About.jsx';
-import Portfolio from './pages/Portfolio.jsx';
+import Gallery from './pages/Gallery.jsx';
 import Error404 from './pages/errors/404.jsx';
 import Singin from './pages/Singin.jsx';
 
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "portfolio",
-        element: <Portfolio />,
+        path: "gallery",
+        element: <Gallery />,
       },
       {
         path: "singin",
