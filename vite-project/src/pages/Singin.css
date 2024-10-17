@@ -50,6 +50,7 @@ body {
     translate: 400px;
 }
 
+
 .wrapper.active .form-box.register {
     transition: translate .18s ease;
     translate: 0;
